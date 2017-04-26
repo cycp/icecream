@@ -1,0 +1,356 @@
+/*how to make sections fit screen perfectly?*/
+/*get rid of white border*/
+
+.section {
+	width: 100%;
+	height: 700px;
+}
+
+h1 {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	text-align: center;
+	/*margin: 0px 0px -30px 0px;*/
+}
+
+p {
+	display: block;
+	white-space: pre-line;
+/*	padding-left: 20px;
+	padding-right: 20px;*/
+}
+
+
+/*body {
+	height: 100%;
+}*/
+
+
+/*------------------------------------------------------------*/
+/*SECTION 1:*/
+
+#section1 {
+	background-color: #FFC4BC;
+	/*border: solid;*/
+	/*border-style: double;*/
+	/*border-width: double;*/
+	/*border-spacing: 10px;*/
+	/*width: 100%;*/
+	/*height: 700px;*/
+	/*background-image: url(../img/icebg2.png);*/
+	overflow: hidden;
+
+}
+
+#title {
+	position: relative;
+	top: 25%; /*centering??*/
+	/*background-image: url(assets/img/ice.png);*/
+}
+
+#title-img {
+	height: 700px;
+	/*text-align: center;*/
+	/*margin: auto;*/
+    /*transform: translateX(-50%;*/
+	position: absolute;
+	left: 0px;
+	top: -60px;
+	/*z-index: -1;*/
+}
+
+body {
+	margin: 0;
+}
+
+#title h1 {
+	/*font-family: 'Alegreya Sans SC', sans-serif;*/
+	font-weight: 300;
+	font-size: 120px;
+	/*text-align: center;*/
+	margin: 0px 0px -50px 0px;
+	position: relative;
+	background-image: url(../img/water2.png), 
+            
+                  url(../img/water2.png);
+	background-repeat: no-repeat, 
+	              
+	                   no-repeat;
+	background-position:  380px center,
+					642px center;
+                     
+/*	background-image: url(../img/water.png);
+	background-repeat: repeat-x;
+	background-position: center;*/
+	background-size: 425px;
+	/*top: -400px;*/
+}
+
+#subtext, h2, #weirdaf {
+	/*display: none;*/
+	font-family: 'Lato';
+	font-size: 50px;
+	font-weight: 300;
+	/*margin-top: 25px;*/
+	/*margin: 0px 0px 100px 0px;*/
+	/*padding-left: 200%;*/
+	padding-left: 50%;
+	/*transition: 07s;*/
+}
+
+#subtext, #weirdaf {
+	display: inline-block;
+	position: relative;
+	left: 75px;
+	bottom: 102px;
+	/*padding-left: 70%;*/
+}
+
+#button {
+	position: absolute;
+	top: 65%;
+	left: 46%;
+	border: solid;
+	border-radius: 4px;
+	border-width: 2px;
+	padding: 6px 12px;
+	width: 100px;
+	/*display: inline-block; why does adding this center it?*/
+	background-color: white;
+	font-weight: 300;
+}
+
+#button:hover {
+	background-color: #FFECEA;
+	cursor: pointer;
+}
+
+#scroll {
+	position: absolute;
+	top: 84%;
+	font-family: 'Lato';
+	font-weight: 300;
+	/*display: inline-block;*/
+	/*font-size: 12px;*/
+	left: 47%;
+	/*text-align: center;*/
+}
+
+#scroll-img {
+	width: 80px;
+	/*position: absolute;*/
+	/*display: block;*/
+	margin-top: -20px;
+	/*vertical-align: middle;*/
+	cursor: pointer;
+}
+#title-img2 {
+	height: 700px;
+	position: absolute;
+	left: 0px;
+	top: -70px;
+	/*z-index: 0;*/
+	/*bottom: 0px;*/
+}
+
+#menu {
+	text-align: center;
+	/*z-index: 50;*/
+	/*display: block;*/
+}
+
+
+
+/*------------------------------------------------------------
+/*ABOUT*/
+#modal-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    z-index: 2;
+}
+
+#modal-box {
+	position: fixed;
+	width: 250px;
+	height: auto;
+	z-index: 3;
+	background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	text-align: center;
+	border-radius: 4px;
+	padding: 0px 45px 30px 45px;
+	font-family: 'Lato';
+	font-weight: 200;
+	font-size: 20px;
+
+}
+
+#x {
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	cursor: pointer;
+	top: 4%;
+	right: 5%;
+	z-index: 10;
+}
+
+.no-scroll {
+	overflow: hidden;
+}
+
+#about-img {
+	width: 380px;
+	position: relative;
+	right: 60px; /*hardcoded*/
+}
+
+
+/*------------------------------------------------------------*/
+/*SECTION 2:*/
+#section2 {
+	/*margin: 0px 400px 0px 400px;*/
+	text-align: center;
+	z-index: 100;
+	height: 1160px;
+}
+
+#grid-wrapper {
+	margin: 0px 195px;
+	/*float: left;*/
+}
+
+#section2 h1 {
+	font-weight: 100;
+	font-size: 80px;
+	margin: 40px;
+}
+
+.name {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-weight: 100;
+	font-size: 20px;
+	/*text-align: center;*/
+	margin: 0 auto;
+	position: relative;
+	bottom: 35%;
+	width: 200px;
+	white-space: pre-line;
+	/*vertical-align: middle;*/
+	/*width: 30px;*/
+	/*position: absolute;*/
+
+
+}
+
+.icecream-item {
+	float: left;
+	margin: 0 0px 0 25px;
+/*	display: inline-block;
+	width: 30%;
+	left: 17px;
+	position: relative;*/
+
+}
+
+.flavor {
+	border: solid;
+	border-color: gray;
+	border-width: .5px;
+	border-radius: 300px;
+	width: 250px;
+	height: 250px;
+	margin: 30px;
+	cursor: default;
+	/*cursor: pointer;*/
+	position: relative;
+	vertical-align: middle;
+	/*display: table-cell;*/
+	/*padding: 10px;*/
+	/*text-align: center;*/
+}
+
+
+
+.flavor-img { /*how to align easily in equal grid wo hardcoding px?*/
+	/*display: inline-block;*/
+	opacity: 1;
+	/*border-spacing: 0px;*/
+	/*margin: 20px;*/
+	width: 175px;
+	position: relative;
+	top: 35px;
+	/*text-align: center;*/
+	/*padding: 50px;*/
+	/*z-index: 5;*/
+	/*background-color: #EFEFEE;*/
+	/*text-align: center;*/
+	/*bottom: 20px;*/
+}
+
+
+/*------------------------------------------------------------*/
+/*SECTION 3:*/
+
+#section3 {
+	background-color: #FFC4BC;
+	/*float: right;*/
+	/*float: left;*/
+	/*text-align: center;*/
+	/*vertical-align: middle;*/
+	/*display: inline-block;*/
+}
+
+svg {
+	display: none;
+	width: 600px;
+	/*text-align: center;*/
+	margin: 320px 0 0 100px;
+	/*margin-top: 70px;*/
+	/*margin-bottom: 30px;*/
+	/*vertical-align: middle;*/
+
+}
+
+path {
+	stroke-dasharray: 690px;
+	stroke-dashoffset: 690px;
+	animation: dash 5s ease-in-out forwards;
+}
+
+@keyframes dash {
+	to {
+	stroke-dashoffset: 0;
+	opacity: 1;
+	}
+}
+
+#fact-title {
+	/*vertical-align: middle;*/
+}
+
+#fact {
+	display: none;
+	position: absolute;
+	right: 680px;
+	white-space: pre-line;
+	/*vertical-align: mi*/
+	/*float: left; */
+	/*position: absolute;*/
+	/*float: left;*/
+	padding: 0 170px;
+
+}
+
+#fact-img {
+	margin-top: 150px;
+	display: none;
+	/*position: fixed;*/
+	width: 50%;
+	float: right;
+	/*vertical-align: center;*/
+	/*top: 100px;*/
+}
