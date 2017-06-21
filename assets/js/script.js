@@ -29,13 +29,16 @@ $(document).ready(function() {
   })
 
   $('.flavor').hover(function() {
+    // $(this).children('.wrapper').fadeIn(500);
     $(this).children('.flavor-img').fadeTo(400, 0.1);
     $(this).children('.name').fadeIn(500);
+    $(this).find('.yelp').fadeIn(500);
   }, 
   function() {
     $(this).stop();
     $(this).children('.flavor-img').fadeTo(400, 1);
     $(this).children('.name').hide();
+    $(this).find('.yelp').hide();
   })
 
   var divs = $('div[id^="subtext"]').hide(),
@@ -54,14 +57,15 @@ $(document).ready(function() {
 
   $(document).scroll(function () {
     var y = $(this).scrollTop();
-    if (y > 1600) {
+
+    if (y > 1800) {
         $('svg').fadeIn();
         $('#fact').delay(2100).fadeIn(800);
         $('#fact-img').delay(2100).fadeIn(800);
-    } else {
-        $('svg').fadeOut();
-        $('#fact').hide();
-        $('#fact-img').hide();
+    // } else {
+    //     $('svg').fadeOut();
+    //     $('#fact').hide();
+    //     $('#fact-img').hide();
     }
 
 });
