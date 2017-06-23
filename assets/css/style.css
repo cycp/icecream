@@ -351,7 +351,6 @@ hr {
 svg {
 	display: none;
 	width: 600px;
-	/*text-align: center;*/
 	margin: 280px 0 0 100px;
 	/*margin-top: 70px;*/
 	/*margin-bottom: 30px;*/
@@ -372,33 +371,24 @@ path {
 	}
 }
 
-#fact-title {
-	/*vertical-align: middle;*/
-}
 
 #fact {
 	display: none;
-	position: relative;
+	position: absolute;
 	/*right: 680px;*/
 	/*left: 10%;*/
 	width: 430px;
-	top: 1%;
-	/*white-space: pre-line;*/
-	/*vertical-align: mi*/
-	/*float: left; */
-	/*position: absolute;*/
-	/*float: left;*/
-	padding: 0 170px;
+	left: -35px;
+	transform: translateX(50%);
+	/*margin: 0 0 0 200px;*/
 
 }
 
 #fact-img {
-	/*margin-top: 150px;*/
 	display: none;
 	position: relative;
-	bottom: 65%;
-	/*width: 50%;*/
+	/*margin-left: 50%;*/
+	/*margin-bottom: 30%;*/
 	/*float: right;*/
-	/*vertical-align: center;*/
-	/*top: 100px;*/
+	bottom: 200px;
 }
