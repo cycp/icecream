@@ -62,6 +62,7 @@ $(document).ready(function() {
         $('svg').fadeIn();
         $('#fact').delay(2100).fadeIn(800);
         $('#fact-img').delay(2100).fadeIn(800);
+        $('hr').delay(2200).fadeIn(800);
     // } else {
     //     $('svg').fadeOut();
     //     $('#fact').hide();
