@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $('#scroll-img').click(function() {
-    $('html, body').scrollTop(700); 
+    $('html, body').scrollTop(700);
   })
 
   $('#button').click(function() {

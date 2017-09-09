@@ -1,3 +1,4 @@
+
 ::-webkit-scrollbar {
     width: 0px;  /* remove scrollbar space */
     background: transparent;  /* optional: just make scrollbar invisible */
@@ -10,15 +11,12 @@
 h1 {
 	font-family: 'Alegreya Sans SC', sans-serif;
 	text-align: center;
-	/*margin: 0px 0px -30px 0px;*/
 }
 
 p {
 	display: block;
 	white-space: pre-line;
 }
-
-
 
 /*------------------------------------------------------------*/
 /*SECTION 1:*/
@@ -165,7 +163,7 @@ body {
 #about-img {
 	width: 380px;
 	position: relative;
-	right: 60px; /*hardcoded*/
+	right: 60px; 
 }
 
 
@@ -208,6 +206,7 @@ body {
 
 .icecream-item {
 	display: inline-block;
+	white-space: pre-line;
 }
 
 .flavor {
