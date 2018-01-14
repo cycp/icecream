@@ -28,7 +28,7 @@ $(document).ready(function() {
     $(this).find('.yelp').hide();
   })
 
-  var divs = $('div[id^="subtext"]').hide(),
+  var divs = $('.subtext').hide(),
       i = 0;
 
   (function cycle() { 
