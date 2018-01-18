@@ -56,7 +56,7 @@ body {
 
 #title h1 {
 	font-weight: 300;
-	font-size: 7.5em;
+	font-size: 8vw;
 	margin: 0px 0px -50px 0px;
 	background-image: url(../img/water2.png), 
             
@@ -64,7 +64,8 @@ body {
 	background-repeat: no-repeat,
 	                   no-repeat;
 	background-position:  center;
-	background-size: 425px;
+	background-size: 30vw;
+	white-space: nowrap;
 }
 
 #subtext-wrapper {
