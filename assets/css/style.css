@@ -35,7 +35,7 @@ p {
 
 #title {
 	margin: 0 auto;
-	height: 700px;
+	height: 36vw;
 }
 
 #title-img {
@@ -71,33 +71,59 @@ body {
 }
 
 #subtext-wrapper {
-	display: unset;
+	text-align: center;
+	white-space: nowrap;
+	display: block;
+	width: 90%;
+	margin-left: 20%
 }
 
-.subtext, h2, #weirdaf {
-	font-family: 'Lato';
-	font-size: 3.4vw;
+h2 {
+	font-family: Lato;
 	font-weight: 300;
-	padding-left: 50%;
+	font-size: 4vw;
+	margin-top: 40px;
+	display: inline-block;
+}
+
+.subtext, #weirdaf {
+	font-family: 'Lato';
+	font-weight: 300;
+	font-size: 3vw;
+	margin-top: 40px;
+	display: inline-block;
+	padding-left: 2px;
+}
+
+/*.subtext, h2, #weirdaf {
+	font-family: 'Lato';
+	font-size: 4vw;
+	font-weight: 300;
+	padding-left: 9.5em;
 }
 
 .subtext, #weirdaf {
 	display: inline-block;
 	position: absolute;
 	top: 69%;
-	left: 5%;
+	padding-left: 9.5em;
+}*/
+
+#menu {
+	text-align: center;
+	height: 13vw;
 }
 
 #button {
 	border: solid;
 	border-radius: 4px;
 	border-width: 1.3px;
-	padding: 6px 12px;
-	width: 100px;
+	padding: .1em .1em;
 	background-color: white;
 	font-weight: 300;
-	margin-top: 100px;
-	margin-bottom: 65px;
+	margin: auto;
+	width: 10%;
+	font-size: 2vw;
 }
 
 #button:hover {
@@ -110,12 +136,14 @@ body {
 	font-family: 'Lato';
 	font-weight: 300;
 	width: 100%;
-	left: 50%;
-	transform: translateX(-50%);
+}
+
+#scroll p {
+	font-size: 1.4vw;
 }
 
 #scroll-img {
-	width: 80px;
+	width: 7%;
 	margin-top: -20px;
 	cursor: pointer;
 }
@@ -125,15 +153,6 @@ body {
 	left: 0px;
 	top: -70px;
 }
-
-#menu {
-	text-align: center;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translateX(-50%);
-}
-
 
 
 /*------------------------------------------------------------
@@ -196,7 +215,6 @@ body {
 
 #grid-wrapper {
 	position: absolute;
-	margin: 0px 200px;
 }
 
 #section2 h1 {
